@@ -1,0 +1,70 @@
+
+
+body{
+    background: linear-gradient(135deg, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(spacebg.jpg);
+    background-position: center;
+}
+
+.container{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 17.5px );
+    -webkit-backdrop-filter: blur( 17.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+}
+
+.timer-display{
+    position: relative;
+    background-color: rgba(0,0,0,.5);
+    width: 80%;
+    left: 4%;
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: #8c52ff;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:nth-last-child(2){
+    background-color: #e35209;
+}
+
+.buttons button:nth-last-child(1){
+    background-color: #f7df1e;
+}
+
+.buttons button:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
