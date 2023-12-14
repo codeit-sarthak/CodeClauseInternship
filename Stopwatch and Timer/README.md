@@ -1,4 +1,4 @@
-# CodeClauseInternship_To-Do-List
+# CodeClauseInternship
 <h2>Stopwatch And Timer</h2>
 
 
